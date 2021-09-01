@@ -1,0 +1,22 @@
+server:
+  ports: 8090
+
+spring:
+  profiles:
+    active: dev
+    
+---
+spring:
+  profiles: dev
+  pid.file: dev_idmanager.pid
+  devtools: 
+    livereload:
+      enabled: true
+      
+logging:
+  level:
+    web: DEBUG
+    
+---
+spring:
+  profiles: prod
