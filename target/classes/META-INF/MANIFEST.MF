@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Built-By: seon-yul
 Build-Jdk: 11.0.10
-Implementation-Title: IdManager
+Implementation-Title: RestAPI
 Implementation-Version: 0.0.1-SNAPSHOT
-Implementation-Vendor-Id: com.comin.omic
+Implementation-Vendor-Id: com.comin.restapi
 Implementation-URL: http://www.example.com
 Created-By: Maven Integration for Eclipse
 
