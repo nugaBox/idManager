@@ -12,7 +12,13 @@ spring:
   devtools: 
     livereload:
       enabled: true
-      
+auth:
+  secretKey: "ABCDE"
+  
+web:
+  path:
+    error: "123"
+    
 logging:
   level:
     web: DEBUG
